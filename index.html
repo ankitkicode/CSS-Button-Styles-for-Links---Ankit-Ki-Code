@@ -1,156 +1,162 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>CSS Button Styles for Links | Ankit-Ki-Code </title>
-		<meta name="description" content="Some ideas for CSS-only button hover styles and animations" />
-		<meta name="keywords" content="button, hover, css, css-only, animation, style, web design" />
-		<meta name="author" content="Codrops" />
-	
-	
-		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<style>
-			body #cdawrap {
-				border: 1px solid #000;
-				--cda-bottom: auto;
-				--cda-right: 3.5rem;
-				--cda-left: auto;
-				--cda-text-align: right;
-				--cda-width: 370px;
-				border-radius: 6px;
-				padding: 0.75rem 1rem 1rem;
-				--footer-align: end;
-				--cda-text-size: 0.875rem;
-				--cda-footer-fontsize: 0.785rem;
-				--cda-text-color: #000;
-				position: absolute;
-				transform: translateY(-150%);
-			}
-			@media screen and (max-width: 800px){
-				body #cdawrap {
-					transform: none;
-					border-radius: 0px;
-				}
-			}
-		</style>
-	</head>
-	<body class="demo-1">
-		<main>
-		
-			<ol class="content">
-				<li class="content__item">
-					<button class="button button--pan"><span>Upload</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--hyperion"><span><span>New page</span></span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--mimas"><span>Render</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--atlas">
-						<span>Subscribe</span>
-						<div class="marquee" aria-hidden="true">
-							<div class="marquee__inner">
-								<span>Subscribe</span>
-								<span>Subscribe</span>
-								<span>Subscribe</span>
-								<span>Subscribe</span>
-							</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>CSS Button Styles for Links | Ankit-Ki-Code</title>
+	<meta name="description" content="Some ideas for CSS-only button hover styles and animations" />
+	<meta name="keywords" content="button, hover, css, css-only, animation, style, web design" />
+	<meta name="author" content="ankit" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+
+<body class="demo-1">
+	<main>
+		<ol class="content">
+			<li class="content__item">
+				<button class="button button--pan"><span>Upload</span></button>
+			</li>
+			<li class="content__item">
+				<button class="button button--hyperion">
+					<span><span>New page</span></span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--mimas"><span>Render</span></button>
+			</li>
+			<li class="content__item">
+				<button class="button button--atlas">
+					<span>Subscribe</span>
+					<div class="marquee" aria-hidden="true">
+						<div class="marquee__inner">
+							<span>Subscribe</span>
+							<span>Subscribe</span>
+							<span>Subscribe</span>
+							<span>Subscribe</span>
 						</div>
-					</button>
-				</li>
-				<li class="content__item">
-					<button class="button button--kari">
-						<span>Send Love</span>
-						<div class="marquee" aria-hidden="true">
-							<div class="marquee__inner">
-								<span>Send Love</span>
-								<span>Send Love</span>
-								<span>Send Love</span>
-								<span>Send Love </span>
-							</div>
+					</div>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--kari">
+					<span>Send Love</span>
+					<div class="marquee" aria-hidden="true">
+						<div class="marquee__inner">
+							<span>Send Love</span>
+							<span>Send Love</span>
+							<span>Send Love</span>
+							<span>Send Love </span>
 						</div>
-					</button>
-				</li>
-				<li class="content__item">
-					<button class="button button--pandora"><span>Activate Card</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--janus"><span>Reshape</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--anthe"><span>Initialize</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--pallene">Hide Details</button>
-				</li>
-				<li class="content__item">
-					<button class="button button--telesto"><span><span>Verify</span></span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--calypso"><span>Export File</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--skoll"><span><span>Add</span></span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--greip"><span><span>Next</span></span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--dione"><span>Resize</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--helene"><span><span>Sell</span></span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--rhea"><span>Delete</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--narvi"><span><span>Open chat</span></span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--hati"><span>Activate</span></button>
-				</li>
-				<li class="content__item">
-					<button class="button button--bestia">
-						<div class="button__bg"></div><span>Locate</span>
-					</button>
-				</li>
-				<li class="content__item">
-					<button class="button button--surtur">
-						<svg class="textcircle" viewBox="0 0 500 500">
-							<title>Projects & client work 2020</title>
-							<defs><path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
-							/></defs>
-							<text><textPath xlink:href="#textcircle" aria-label="Projects & client work 2020" textLength="900">Projects &amp; client work 2020</textPath></text>
-						</svg>
-						<svg aria-hidden="true" class="eye" width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
-						    <path class="eye__outer" d="M10.5 35.308c5.227-7.98 14.248-13.252 24.5-13.252s19.273 5.271 24.5 13.252c-5.227 7.98-14.248 13.253-24.5 13.253s-19.273-5.272-24.5-13.253z"/>
-					        <path class="eye__lashes-up" d="M35 8.802v8.836M49.537 11.383l-3.31 8.192M20.522 11.684l3.31 8.192" />
-					        <path class="eye__lashes-down" d="M35 61.818v-8.836 8.836zM49.537 59.237l-3.31-8.193 3.31 8.193zM20.522 58.936l3.31-8.193-3.31 8.193z" />
-					        <circle class="eye__iris" cx="35" cy="35.31" r="5.221" />
-					        <circle class="eye__inner" cx="35" cy="35.31" r="10.041" />
-						</svg>
-					</button>
-				</li>
-				<li class="content__item">
-					<button class="button button--fenrir">
-						<svg aria-hidden="true" class="progress" width="70" height="70" viewbox="0 0 70 70">
-							<path class="progress__circle" d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" />
-							<path class="progress__path" d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" pathLength="1" />
-						</svg>
-						<span>Go</span>
-					</button>
-				</li>
-			</ol>
-			<section class="related">
-				<h3>More in this collection</h3>
-			</section>
-			<footer class="frame frame--footer">
-				<div class="frame__author"><a href="">@ankit_ki_code</a></div>
-			</footer>
-		</main>
-	</body>
+					</div>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--pandora">
+					<span>Activate Card</span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--janus"><span>Reshape</span></button>
+			</li>
+			<li class="content__item">
+				<button class="button button--anthe"><span>Initialize</span></button>
+			</li>
+			<li class="content__item">
+				<button class="button button--pallene">Hide Details</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--telesto">
+					<span><span>Verify</span></span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--calypso">
+					<span>Export File</span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--skoll">
+					<span><span>Add</span></span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--greip">
+					<span><span>Next</span></span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--dione"><span>Resize</span></button>
+			</li>
+			<li class="content__item">
+				<button class="button button--helene">
+					<span><span>Sell</span></span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--rhea"><span>Delete</span></button>
+			</li>
+			<li class="content__item">
+				<button class="button button--narvi">
+					<span><span>Open chat</span></span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--hati"><span>Activate</span></button>
+			</li>
+			<li class="content__item">
+				<button class="button button--bestia">
+					<div class="button__bg"></div>
+					<span>Locate</span>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--surtur">
+					<svg class="textcircle" viewBox="0 0 500 500">
+						<title>Projects & client work 2020</title>
+						<defs>
+							<path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" />
+						</defs>
+						<text>
+							<textPath xlink:href="#textcircle" aria-label="Projects & client work 2020"
+								textLength="900">
+								Projects &amp; client work 2020
+							</textPath>
+						</text>
+					</svg>
+					<svg aria-hidden="true" class="eye" width="70" height="70" viewBox="0 0 70 70"
+						xmlns="http://www.w3.org/2000/svg">
+						<path class="eye__outer"
+							d="M10.5 35.308c5.227-7.98 14.248-13.252 24.5-13.252s19.273 5.271 24.5 13.252c-5.227 7.98-14.248 13.253-24.5 13.253s-19.273-5.272-24.5-13.253z" />
+						<path class="eye__lashes-up"
+							d="M35 8.802v8.836M49.537 11.383l-3.31 8.192M20.522 11.684l3.31 8.192" />
+						<path class="eye__lashes-down"
+							d="M35 61.818v-8.836 8.836zM49.537 59.237l-3.31-8.193 3.31 8.193zM20.522 58.936l3.31-8.193-3.31 8.193z" />
+						<circle class="eye__iris" cx="35" cy="35.31" r="5.221" />
+						<circle class="eye__inner" cx="35" cy="35.31" r="10.041" />
+					</svg>
+				</button>
+			</li>
+			<li class="content__item">
+				<button class="button button--fenrir">
+					<svg aria-hidden="true" class="progress" width="70" height="70" viewbox="0 0 70 70">
+						<path class="progress__circle"
+							d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" />
+						<path class="progress__path"
+							d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z"
+							pathLength="1" />
+					</svg>
+					<span>Go</span>
+				</button>
+			</li>
+		</ol>
+		<section class="related">
+			<h3>More in this collection</h3>
+		</section>
+		<footer class="frame frame--footer">
+			<div class="frame__author"><a href="">@ankit_ki_code</a></div>
+		</footer>
+	</main>
+</body>
+
 </html>
